@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* banner section */
+.container{
+    display: flex;
+    align-items: center;
+}
+.poster{
+    max-width: 50%;
+}
+.banner{
+    padding-right: 70px;
+    text-align: right;
+}
+.banner-title{
+    font-weight: 800px;
+    font-size: 70px;
+}
+.banner-description{
+    padding: 35px 0;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #ed7331;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Main section */
+main{
+    margin: 80px 130px;
+}
+.sec-image{
+    max-width: 50%;
+}
+.failures{
+    display: flex;
+    align-items: center;
+}
+.description{
+    margin-top: 90px;
+    padding-left: 80px;
+}
+.sec-title{
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.sec-description{
+    margin-bottom: 20px;
+}
+.fa-check{
+    margin-bottom: 20px;
+}
+
+/* plans */
+
+.Plans{
+    text-align: center;
+    margin-top: 100px;
+}
+.sec-title{
+    margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.item h2{
+    font-weight: 900;
+    font-size: 25px;
+}
+.item h4{
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(148, 154, 154);
+}
+
+/* Mindset */
+
+.mindset-container{
+    height: 300px;
+    background-image: url(../images/watch.png);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #FFFFFF;
+    text-align: left;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    margin-top: 130px;
+}
+.mindset-title{
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    /* padding: 30px 40px; */
+}
+.btn-call{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ed7331;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 40px;
+}
+.mindset-gradient{
+    background: linear-gradient(to left #ed7331 #FFFFFF);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: -4;
+}
+
+/* footer */
+
+.footer-container{
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    padding: 130px 200px;
+    gap: 290px;
+}
+.future p{
+    margin-bottom: 20px;
+}
+.img{
+    margin-right: 10px;
+}
+.future-title{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.future-description{
+    margin-bottom: 20px;
+}
+.subscribe{
+   text-align: left ;
+}
+.Subscribe-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.email{
+    padding:15px 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: black;
+    margin-bottom: 20px;
+}
